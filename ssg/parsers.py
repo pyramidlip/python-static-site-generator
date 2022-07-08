@@ -10,7 +10,7 @@ class Parser:
         return extension in self.extensions
 
     def parse(self, path: Path, source: Path, dest: Path):
-        raise NotImplementedError('method not implemented')
+        raise NotImplementedError
 
     def read(self, path):
         with open(path) as file:
